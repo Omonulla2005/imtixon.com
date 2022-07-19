@@ -1,0 +1,726 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.ready{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./hero_home_june21.webp);
+}
+
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background-color: #ffffff;
+    top: 0;
+}
+.navbar>button{
+    width: 120px;
+    height: 50px;
+    margin-left: 30px;
+    background: none;
+    border: 3px solid #010334;
+    color: #010334;
+}
+.navbar>button:hover{
+    border: 3px solid #5F5D77;
+    color: #5F5D77;
+}
+
+.ul111>a{
+    text-decoration: none;
+    color: #010334;
+}
+.icon{
+    display: flex;
+    prefix: 3px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    height:80px;
+
+}
+.icon:hover .cart{
+    display: block;
+}
+.cart{
+
+    position: absolute;
+    width: 300px;
+    height: 600px;
+    top: 80px;
+    padding-top: 50px;
+    font-size: 18px;
+    color: #010334;
+    background-color: #ffffff;
+    display: none;
+}
+.cart>a{
+    text-decoration: none;
+    color: #010334;
+}
+.cart>a:hover{
+    color: #2156FA;
+}
+.al{
+    text-decoration: none;
+    color: #010334;
+}
+
+.navbar>ul{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  list-style-type: none;
+  color: #010334;
+  padding-left: 50px;
+  
+}
+
+.page1{
+    text-decoration: none;
+    color: #010334;
+}
+.page1:hover{
+    color: #5F5D77;
+}
+.navbar>ul>li{
+    cursor: pointer;
+    font-size: 15px;
+  padding-left: 50px;
+}
+.navbar>ul>li:hover{
+    color: #5F5D77;
+}
+.icon>i:hover{
+    transform: rotate(180deg);
+}
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color: #EFEFEF;
+}
+.navbar{
+    width: 100%;
+    height: 90px;
+    box-shadow: 0px 0px 2px gray;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.navbar img{
+    width: 102px;
+    margin-left: 40px;
+}
+.navbar_collection{
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    flex: 1;
+}
+.navbar_collection li{
+    font-size: 16px;
+    margin: 31px;
+    color: #000;
+    height: 24px;
+}
+.navbar_collection  li i{
+    margin-left: 3px;
+}
+.navbar p{
+    margin: 10px;
+}
+.login_box{
+    display: flex;
+    align-items: center;
+    margin: 53px;
+}
+.login_box button{ 
+    width: 119px;
+    height: 34px;
+    border: none;
+    background-color: #2156FA;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.banner{
+    width: 100%;
+    height: calc(97vh - 90px);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    background-color: #fff;
+}
+
+.banner_box:last-child{
+    background-image: url("https://www.jimdo.com/static/96c8f085c1ca4d7090c09f4477bfdf1e/f5cc2/hero_website_july21.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_box:first-child{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.banner_box h1{
+    font-size: 66.8px;
+    line-height: 1;
+    font-weight: 900;
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: -30px;
+    color: #010334;
+}
+.banner_box h1 span{
+    color:#2156FA;
+    font-family: sans-serif;
+    font-size: 70px;
+}
+.banner_box p{
+    font-size: 20px;
+    text-align: center;
+    padding: 40px 70px;
+}
+.banner_btn{
+    width: 200px;
+    height: 60px;
+    background-color: #2156FA;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.banner_categories{
+    width: 87%;
+    height: 442px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 90px;
+}
+
+.banner_categories_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #010334;
+}
+.banner_categories_box img{
+    width: 48px;
+}
+.salll{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(238, 235, 235);
+    margin-top: -440px;
+}
+.salll h1{
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+    padding-top: 50px;
+    font-weight: 900;
+}
+
+.salll h2{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.788);
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: -20px;
+
+}
+.terminal{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.faster{
+    width: 90%;
+    height: 500px;
+    background-color:white;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 100px;
+}
+.faster1{
+    width: 50%;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.no{
+    font-size: 25px;
+    font-weight: 900;
+}
+.fees{
+    padding-top: 18px;
+    font-size: 20px;
+}
+
+
+.family{
+    width: 90%;
+    height: 45  0px;
+    background-color:white;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 5%;
+}
+
+.fast{
+    width: 50%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.faster2 img{
+    width: 200px;
+    height: 100px;
+}
+
+.local{
+    font-size: 18px;
+    font-weight: 900;
+    margin-left: -250px;
+    padding-top: 20px;
+}
+
+.oxfort{
+    width: 50px;
+    font-size: 20px;
+    height: 20px;
+    background-color: rgb(18, 128, 8);
+    margin-left: -350px;
+}
+
+.feese{
+    font-size: 16px;
+    width: 400px;
+    padding-top: 20px;
+    margin-left: 200px;
+   }
+   
+   .faster2 img{
+    margin-top: 550px;
+    margin-left: 650px;
+    width: 100px;
+    height: 100px;
+  } 
+
+
+
+
+  
+.import{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(238, 235, 235);
+    margin-top: 140px;
+}
+
+
+
+.import h1{
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+    padding-top: 50px;
+    font-weight: 900;
+}
+
+.import h2{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.788);
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: -300px;
+
+}
+.banner_btn_btn{
+    width: 200px;
+    height: 60px;
+    background-color: #2156FA;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    margin-left: 550px;
+    margin-top: 40px;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+
+.kasb{
+    width: 100%;
+    height: 700px;
+    margin-top: 50px;
+    display: flex;
+}
+.inson{
+    width: 60%;
+    height: 750px;
+    background-color:white;
+
+}
+
+.sport{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 900;
+    padding-top: 30px;
+}
+.creat{
+    font-size: 20px;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+.eniga{
+    width: 600px;
+    height: 2px;
+    background-color: gray;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.laylo{
+    width: 200px;
+    height: 70px;
+    margin-left: 175px;
+    background-color: rgb(8, 8, 199);
+    margin-top: 50px;
+    border: none;
+    font-size: 22px;
+    transition: 0.20s;
+    color: white;
+}
+.laylo:hover{
+    background-color: blue;
+    transition: 0.20s;
+
+ }
+
+.eni{
+    width: 600px;
+    height: 2px;
+    background-color: gray;
+    margin-top: 50px;
+}
+
+.inson1{
+    width: 40%;
+    height: 750px;
+    background-color:white;
+}
+
+.parvoz{
+    color: blue;
+}
+
+
+.footer{
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(34, 30, 30);
+    padding-top: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer_end{
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.ffaa{
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 200px;
+    height: 470px;
+}
+
+
+.karzina{
+    width: 45%;
+    height: 740px;
+    background-color:white;
+    margin-left: 700px;
+}
+.liga{
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.liga1{
+    font-size: 35px;
+    font-weight: 900;
+    color: blue;
+    text-align: center;
+    padding-top: 20px;
+
+    }
+    .size{
+        font-size: 19px;
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+.en{
+    width: 400px;
+    height: 2px;
+    background-color: gray;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.compyuter{
+    padding-left: 100px;
+    font-size: 16px;
+}
+.cons{
+    padding-top: 20px;
+}
+.fura{
+    width: 140px;
+    height: 140px;
+    margin-left: 200px;
+    margin-top: 10px;
+    
+}
+.terminator{
+    font-size: 20px;
+    padding-left: 100px;
+    padding-top: 20px;
+}.laylak{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+
+
